@@ -7,7 +7,7 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 import {checkImageURL} from '../../../../utils/index'
 
 const PopularJobCard = ({ item, selectedJob, handleCardPress }) => {
-  console.log(item)
+  
   return (
     <TouchableOpacity
       style={styles.container(selectedJob, item)}
